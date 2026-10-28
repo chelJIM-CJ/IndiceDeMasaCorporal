@@ -1,6 +1,6 @@
 ﻿using CommunityToolkit.Mvvm.ComponentModel;
 using CommunityToolkit.Mvvm.Input;
-using Imc.Maui.Models;
+using Imc.Models;
 
 namespace Imc.Maui.ViewsModels
 {
@@ -22,7 +22,7 @@ namespace Imc.Maui.ViewsModels
         }
 
         [RelayCommand]
-        private void Calular()
+        private void Calcular()
         {
             decimal peso;
             decimal estatura;

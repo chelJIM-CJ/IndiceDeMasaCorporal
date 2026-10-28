@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Security.Cryptography.X509Certificates;
-using System.Text;
-
-namespace Imc.Maui.Models
+﻿namespace Imc.Models
 {
     public class CalculadoraImc
     {
